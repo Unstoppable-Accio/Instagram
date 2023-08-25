@@ -10,6 +10,9 @@ const Login = () => {
          email:"", password:""
    })
 
+
+   // check if token is stored in Localstorage if it ti sthere redirect user to dashboard
+
    let [error,setError] = useState()
    let [success,setSuccess] = useState()
 

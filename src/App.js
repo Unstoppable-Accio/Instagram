@@ -15,15 +15,17 @@ const App = () => {
 
     return(
         <div>
-            <UploadImage/>
-            {/* <Routes>
+            
+            <Routes>
 
                 <Route path="/" element={<SignUp/>} />
                 <Route path="/login" element={<Login/>} />
                 <Route path="/dashboard" element={<Dashboard/>} />
+                <Route path="/upload" element={<UploadImage/>} />
 
 
-            </Routes> */}
+
+            </Routes>
         </div>
     )
 }
